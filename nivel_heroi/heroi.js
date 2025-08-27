@@ -5,9 +5,7 @@
 let nomeHeroi = "Superman";
 let xpHeroi = 9800;
 
-// Verifica o nível do herói com base na experiência (xpHeroi)
-
-// Utilizando if para determinar o nível do herói
+// Verifica o nível do herói com base na experiência (xpHeroi) Utilizando if para determinar o nível do herói
 if (xpHeroi <= 1000) {
   console.log("O herói " + nomeHeroi + " está no nível Ferro");
 } else if (xpHeroi >= 1001 && xpHeroi <= 2000) {
